@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BestFruit Website</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      color: #000;
+    }
+    .nav-link {
+      color: #000;
+    }
+    .nav-link.active {
+      color: blue !important;
+    }
+    .card {
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px 0;
+      background-color: #f5f5f5;
+    }
+    #contactFormLabel {
+      color: blue !important;
+    }
+    /* Custom styles for form */
+    .form-row {
+      margin-bottom: 15px;
+    }
+    /* Adjust form layout */
+    .form-group {
+      margin-bottom: 15px;
+    }
+    /* Hide pages by default */
+    .page {
+      display: none;
+    }
+    /* Show active page */
+    .page.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../Tugas4/Logo.png" alt="Fruit Logo" style="width: 120px; margin-right: 0px;">
+        BestFruit
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" id="homeLink">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="aboutLink">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="contactLink">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container mt-4">
+    <!-- Home Page Content -->
+    <div id="home" class="page active">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Tugas4/Apple.jpg" class="card-img-top" alt="Apple" style="width: 286px; height: 200px;">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>What are the uses of Apple?</strong></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Azizah Pauziah | Posted on 14 March 2024.</h6>
+                        <p class="card-text">Lorem ipsum color sit amet consectetur adipisicing elit. Sit officia provident id! Deleniti ea nostrum unde omnis.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Tugas4/Blueberry.jpg" class="card-img-top" alt="Blueberry" style="width: 286px; height: 200px;">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>What are the uses of Blueberry?</strong></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Azizah Pauziah | Posted on 14 March 2024.</h6>
+                        <p class="card-text">Lorem ipsum color sit amet consectetur adipisicing elit. Sit officia provident id! Deleniti ea nostrum unde omnis.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Tugas4/Grape.jpg" class="card-img-top" alt="Grape" style="width: 286px; height: 200px;">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>What are the uses of Grape?</strong></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Azizah Pauziah | Posted on 14 March 2024.</h6>
+                        <p class="card-text">Lorem ipsum color sit amet consectetur adipisicing elit. Sit officia provident id! Deleniti ea nostrum unde omnis.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Tugas4/Guava.jpg" class="card-img-top" alt="Guava" style="width: 286px; height: 200px;">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>What are the uses of Guava?</strong></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Azizah Pauziah | Posted on 14 March 2024.</h6>
+                        <p class="card-text">Lorem ipsum color sit amet consectetur adipisicing elit. Sit officia provident id! Deleniti ea nostrum unde omnis.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Tugas4/Mangosteen.jpg" class="card-img-top" alt="Mangosteen" style="width: 286px; height: 200px;">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>What are the uses of Mangosteen?</strong></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Azizah Pauziah | Posted on 14 March 2024.</h6>
+                        <p class="card-text">Lorem ipsum color sit amet consectetur adipisicing elit. Sit officia provident id! Deleniti ea nostrum unde omnis.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Tugas4/Strawberry.jpg" class="card-img-top" alt="Strawberry" style="width: 286px; height: 200px;">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>What are the uses of Strawberry?</strong></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Azizah Pauziah | Posted on 14 March 2024.</h6>
+                        <p class="card-text">Lorem ipsum color sit amet consectetur adipisicing elit. Sit officia provident id! Deleniti ea nostrum unde omnis.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+
+    <!-- About Page Content -->
+    <div id="about" class="page">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 text-left">
+            <h2 style="color: blue;">About Us</h2>
+            <p>Welcome to BestFruit, your ultimate destination for all things fruity and delicious! We are passionate about fruits and aim to provide you with valuable 
+               information about various fruits, including their uses, benefits, and nutritional values. Our team of experts works tirelessly to bring you well-researched 
+               articles and guides to help you explore the wonderful world of fruits. Whether you're a fruit enthusiast or just looking to learn more, you'll find something 
+               of interest here at Fruit. Join us on this fruity journey and discover the amazing flavors and health benefits that fruits have to offer. Let's embark on a 
+               delicious adventure together!</p>
+          </div>
+        </div>
+      </div>
+
+    <!-- Contact Page Content -->
+<div id="contact" class="page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h2 style="color: blue;">Contact Us</h2>
+                <p>Follow us on Instagram for daily updates and delicious fruit inspirations:</p>
+                <p class="instagram"><a href="https://instagram.com/fruit.id">@BestFruit.id</a></p>
+                <p>For inquiries and collaborations, drop us an email:</p>
+                <p class="email"><a href="mailto:hello@fruit.com">hello@Bestfruit.com</a></p>
+                <hr> <!-- Horizontal line for separation -->
+                <form>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="firstName">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+                        </div>
+                        <div class="col">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="agree">
+                        <label class="form-check-label" for="agree">I agree to the terms and conditions</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer>
+      © 2024 Fruit Website
+    </footer>
+  
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom Script -->
+    <script>
+      $(document).ready(function(){
+        $(".nav-link").click(function(){
+          $(".nav-link").removeClass("active");
+          $(this).addClass("active");
+          var page = $(this).attr('id').replace('Link', '');
+          $(".page").removeClass("active");
+          $("#" + page).addClass("active");
+        });
+      });
+    </script>
+</body>
+</html>
